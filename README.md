@@ -9,7 +9,7 @@ A Virtual Reality game/scenario in a realistic forest, exploration with teletran
 <img src="./img/fountain.PNG" alt="fountain" style="width:500px;height:300px;"/>
 <img src="./img/hut.png" alt="hut" style="width:500px;height:300px;"/>
 
-## Walkable path
+## Walkable path & Map
 <img src="./img/walkable.png" alt="fountain" style="width:500px;height:500px;"/>
 
 ## Requirements
