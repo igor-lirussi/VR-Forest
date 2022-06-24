@@ -2,11 +2,11 @@
 A Virtual Reality game/scenario in a realistic forest, exploration with teletransportation. 
 
 ## Result
-<img src="./img/result.png" alt="fountain" style="width:700px;height:400px;"/>
+<img src="./img/result.PNG" alt="fountain" style="width:700px;height:400px;"/>
 
 ## Special Assets
-<img src="./img/water.png" alt="water" style="width:500px;height:300px;"/>
-<img src="./img/fountain.png" alt="fountain" style="width:500px;height:300px;"/>
+<img src="./img/water.PNG" alt="water" style="width:500px;height:300px;"/>
+<img src="./img/fountain.PNG" alt="fountain" style="width:500px;height:300px;"/>
 <img src="./img/hut.png" alt="hut" style="width:500px;height:300px;"/>
 
 ## Walkable path
