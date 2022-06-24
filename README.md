@@ -7,9 +7,10 @@ A Virtual Reality game/scenario in a realistic forest, exploration with teletran
 ## Special Assets
 <img src="./img/water.png" alt="water" style="width:500px;height:300px;"/>
 <img src="./img/fountain.png" alt="fountain" style="width:500px;height:300px;"/>
+<img src="./img/hut.png" alt="hut" style="width:500px;height:300px;"/>
 
 ## Walkable path
-<img src="./img/walkable2.png" alt="fountain" style="width:500px;height:500px;"/>
+<img src="./img/walkable.png" alt="fountain" style="width:500px;height:500px;"/>
 
 ## Requirements
 - Unity 2021.2
