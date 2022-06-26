@@ -10,7 +10,7 @@ A Virtual Reality game/scenario in a realistic forest, exploration with teletran
 <img src="./img/hut.png" alt="hut" style="width:500px;height:300px;"/>
 
 ## Walkable path & Map
-<img src="./img/walkable.png" alt="fountain" style="width:500px;height:500px;"/>
+<img src="./img/map_pretty.png" alt="fountain" style="width:500px;height:500px;"/>
 
 ## Requirements
 - Unity 2021.2
@@ -24,4 +24,4 @@ Execute the project with Unity
 
 
 ## License
-This project is licensed under License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under License - see the [LICENSE](LICENSE) file for details
