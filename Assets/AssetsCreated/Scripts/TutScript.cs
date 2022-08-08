@@ -19,6 +19,7 @@ public class TutScript : MonoBehaviour
     void Start()
     {
         //https://www.youtube.com/watch?v=9tMvzrqBUP8
+        //https://www.youtube.com/watch?v=qo-9CmcKWlY
         //Destroy(gameObject,3f);
         rb = GetComponent<Rigidbody>();
         playerAudioSource = GetComponent<AudioSource>();
