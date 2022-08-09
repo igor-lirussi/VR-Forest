@@ -2752,6 +2752,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7, type: 3}
   m_PrefabInstance: {fileID: 378579404}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &331991392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331991383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d1863ca0caf94c428ab4611ee900f66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagRight: paper
+  playerAudioSource: {fileID: 1237617304}
+  volume: 0.5
+  clipGood: {fileID: 8300000, guid: 90fd71eadb648604385d6ae3bb91ccbd, type: 3}
+  clipBad: {fileID: 8300000, guid: e9773a6f1275ac44d90368cf4c0cf989, type: 3}
 --- !u!4 &332774042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4467138112451190354, guid: c62f5d8eba209e342a76be745d7df4c3, type: 3}
@@ -5056,6 +5073,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 23fc59362ba1e264eb5b636821ad929a, type: 3}
       propertyPath: m_Name
       value: cardboardBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 23fc59362ba1e264eb5b636821ad929a, type: 3}
+      propertyPath: m_TagString
+      value: paper
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 23fc59362ba1e264eb5b636821ad929a, type: 3}
       propertyPath: m_RootOrder
@@ -8998,6 +9019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cereals
       objectReference: {fileID: 0}
+    - target: {fileID: 129966, guid: 44d893618ee70db4fbea9c13f14a89fb, type: 3}
+      propertyPath: m_TagString
+      value: paper
+      objectReference: {fileID: 0}
     - target: {fileID: 437718, guid: 44d893618ee70db4fbea9c13f14a89fb, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -9556,6 +9581,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 84fa1372da0bc1849a3f058e3cad16eb, type: 3}
       propertyPath: m_Name
       value: cardboardBox_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 84fa1372da0bc1849a3f058e3cad16eb, type: 3}
+      propertyPath: m_TagString
+      value: paper
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 84fa1372da0bc1849a3f058e3cad16eb, type: 3}
       propertyPath: m_RootOrder
@@ -11658,6 +11687,121 @@ Transform:
   m_Father: {fileID: 1250822176}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -8.36, y: -220.43, z: 15.8}
+--- !u!1 &2120362633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2120362634}
+  - component: {fileID: 2120362638}
+  - component: {fileID: 2120362637}
+  - component: {fileID: 2120362636}
+  - component: {fileID: 2120362635}
+  m_Layer: 0
+  m_Name: CubeCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2120362634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120362633}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.014, y: 0.642, z: 2.601}
+  m_LocalScale: {x: 0.47, y: 1, z: 0.51}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2120362635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120362633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d1863ca0caf94c428ab4611ee900f66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagRight: paper
+  playerAudioSource: {fileID: 1237617304}
+  volume: 0.5
+  clipGood: {fileID: 8300000, guid: b028165c87553fd4dbdd0a2534ac9659, type: 3}
+  clipBad: {fileID: 8300000, guid: fa562b5d88de45f459d62d68dc289c69, type: 3}
+--- !u!65 &2120362636
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120362633}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2120362637
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120362633}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2120362638
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120362633}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2123539125
 GameObject:
   m_ObjectHideFlags: 0
