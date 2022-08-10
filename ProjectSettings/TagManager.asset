@@ -4,9 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - metal
-  - projectile
   - paper
+  - metal
+  - plastic
+  - glass
+  - organic
   layers:
   - Default
   - TransparentFX
