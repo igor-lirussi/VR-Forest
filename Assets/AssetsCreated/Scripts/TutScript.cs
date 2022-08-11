@@ -24,7 +24,7 @@ public class TutScript : MonoBehaviour
         //https://www.youtube.com/watch?v=qo-9CmcKWlY
         //Destroy(gameObject,3f);
         rb = GetComponent<Rigidbody>(); //rigid body of this game object
-        playerAudioSource = GetComponent<AudioSource>();
+        //playerAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
