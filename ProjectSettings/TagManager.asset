@@ -9,6 +9,8 @@ TagManager:
   - plastic
   - glass
   - organic
+  - projectile
+  - bunny
   layers:
   - Default
   - TransparentFX

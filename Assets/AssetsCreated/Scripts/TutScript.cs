@@ -9,33 +9,30 @@ public class TutScript : MonoBehaviour
 {
 
     public AudioSource playerAudioSource;
-    Rigidbody rb;
-    public TextMeshPro tutorialText;    
     public AudioClip clipInitial;
     public AudioClip clipTeleport;
     public AudioClip clipPick;
     public float volume=0.5f;
 
+    bool tutİnProgress=false;
+
     // Start is called before the first frame update
     void Start()
     {
+        //Tutorial Scripting
         //https://www.youtube.com/watch?v=9tMvzrqBUP8
         //planting: 
         //https://www.youtube.com/watch?v=qo-9CmcKWlY
-        //Destroy(gameObject,3f);
-        rb = GetComponent<Rigidbody>(); //rigid body of this game object
-        //playerAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.Rotate(0, 1, 0, Space.Self);
         
         if (Input.GetKeyDown(KeyCode.T))
         {
             Debug.Log("********* T pressed ");
-			Invoke( "StartTutorial", 5.0f );
+			Invoke( "StartTutorial", 2.0f );
         }
         
         if (Input.GetKeyDown(KeyCode.R))
@@ -45,38 +42,30 @@ public class TutScript : MonoBehaviour
         }
     }
 
-    void onMouseDown() 
+    public bool TutorialİnProgress()
     {
-        Debug.Log("********* Mouse pressed ");
-        Destroy(gameObject,3f);
+        return tutİnProgress;
     }
 
-    void OnAttachedToHand() 
+
+    public void StartTutorial() 
     {
-        StartTutorial();
+        if (!tutİnProgress) 
+        {
+            Debug.Log("********* Tutorial started");
+            tutİnProgress = true;
+            GameObject.Find("CubeTutorial").GetComponent<CubeTutScript>().ShowTutorialStarted();
+            //playerAudioSource.clip = ???;
+            //playerAudioSource.PlayOneShot(clipInitial,volume);
+            
+            Invoke( "EndTutorial", 5.0f );
+        }
     }
 
-    void ChangeScene()
+    
+    public void EndTutorial() 
     {
-        Debug.Log("***** Change Scene");
-    }
-    void ChangeSceneAction()
-    {
-        Debug.Log("***** Change Scene Action");
-    }
-    void TeleportPlayer()
-    {
-        Debug.Log("***** TeleportPlayer ");
-    }
-
-    void StartTutorial() 
-    {
-        //Destroy(gameObject,3f); //second parameter is seconds after gets destroyed
-        Debug.Log("********* Tutorial started");
-        Color color = new Color(0,0,255);
-        tutorialText.color = color;
-        tutorialText.text = "Started";
-        //playerAudioSource.clip = ???;
-        //playerAudioSource.PlayOneShot(clipInitial,volume);
+        tutİnProgress = false;
+        GameObject.Find("CubeTutorial").GetComponent<CubeTutScript>().ShowTutorialEnded();
     }
 }

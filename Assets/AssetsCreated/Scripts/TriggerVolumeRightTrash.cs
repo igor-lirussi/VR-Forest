@@ -10,6 +10,7 @@ public class TriggerVolumeRightTrash : MonoBehaviour
 
     public AudioClip clipGood;
     public AudioClip clipBad;
+    public AudioClip clipTerrible;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +36,15 @@ public class TriggerVolumeRightTrash : MonoBehaviour
                 playerAudioSource.clip = clipGood;
                 playerAudioSource.PlayOneShot(clipGood,volume);
                 Destroy(collider.gameObject,3f);
-            } else {
+            } 
+            else if(collider.gameObject.tag == "bunny")
+            {
+                Debug.Log("********* terrible one");
+                playerAudioSource.clip = clipTerrible;
+                playerAudioSource.PlayOneShot(clipTerrible,volume);
+            }
+            else 
+            {
                 Debug.Log("********* bad one");
                 playerAudioSource.clip = clipBad;
                 playerAudioSource.PlayOneShot(clipBad,volume);
