@@ -28,5 +28,6 @@ namespace Valve.VR.InteractionSystem.Sample
                 renderers[rendererIndex].material.color = newColor;
             }
         }
+
     }
 }

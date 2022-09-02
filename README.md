@@ -1,5 +1,8 @@
 # VR-Forest
+## Description 
 A Virtual Reality game/scenario in a realistic forest, exploration with teletransportation. 
+
+[[All my VR Projects here]](https://github.com/igor-lirussi?tab=repositories&q=virtual-reality)
 
 ## Result
 <img src="./img/result.PNG" alt="fountain" style="width:700px;height:400px;"/>
