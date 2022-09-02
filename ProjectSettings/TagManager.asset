@@ -11,6 +11,7 @@ TagManager:
   - organic
   - projectile
   - bunny
+  - hand
   layers:
   - Default
   - TransparentFX

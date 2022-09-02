@@ -7,8 +7,6 @@ using TMPro;
 
 public class CubeTutScript : MonoBehaviour
 {
-
-    Rigidbody rb;
     public TextMeshPro tutorialText;
 
     TutScript tutScript = null;
@@ -32,7 +30,6 @@ public class CubeTutScript : MonoBehaviour
 
     void OnAttachedToHand() 
     {
-        ShowTutorialStarted();
         //Start Tutorial
         tutScript.StartTutorial();
     }
