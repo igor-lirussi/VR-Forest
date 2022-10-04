@@ -1,6 +1,10 @@
 # VR-Forest
-## Description 
 A Virtual Reality game/scenario in a realistic forest, exploration with teletransportation. 
+
+## Description 
+A forest environment where the player moves and explores around. </br>
+The surroundings contain interest points and animals. </br>
+Some objects are present to manipulate and put in containers 
 
 [[All my VR Projects here]](https://github.com/igor-lirussi?tab=repositories&q=virtual-reality)
 
