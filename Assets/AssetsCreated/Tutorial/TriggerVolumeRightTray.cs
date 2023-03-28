@@ -22,7 +22,7 @@ public class TriggerVolumeRightTray : MonoBehaviour
   
             if(collider.gameObject.tag == "organic") 
             {   
-                Debug.Log("********* right one");
+                Debug.Log("********* "+ collider.gameObject.tag+ "collided with " + this.name);
                 GameObject.Find("Tutorial").GetComponent<TutScript>().playNowTeleport();
             }
         
