@@ -11,10 +11,10 @@ Some objects are present to manipulate and put in containers.
 [[All my VR Projects here]](https://github.com/igor-lirussi?tab=repositories&q=virtual-reality)
 
 ## Result
-<img src="./img/result.PNG" alt="fountain" style="width:700px;height:400px;"/>
+<img src="./img/result.PNG" alt="fountain" style="width:700px;"/>
 
 ## Walkable path & Map
-<img src="./img/map_pretty.png" alt="fountain" style="width:500px;height:500px;"/>
+<img src="./img/map_pretty.png" alt="fountain" style="width:500px;"/>
 
 ## İnterest Points
 <section>
@@ -70,15 +70,14 @@ Some objects are present to manipulate and put in containers.
 </section>
 
 ## Animals
-<img src="./img/animals/blue bird.gif" alt="bird" style="width:500px;height:300px;"/>
-<img src="./img/animals/wp.gif" alt="woodpecker" style="width:500px;height:300px;"/>
-<img src="./img/animals/deer.gif" alt="deer" style="width:500px;height:300px;"/>
-<img src="./img/animals/sheep.gif" alt="sheep" style="width:500px;height:300px;"/>
-<img src="./img/animals/wolf.gif" alt="wolf" style="width:500px;height:300px;"/>
-<img src="./img/animals/fox.gif" alt="fox" style="width:500px;height:300px;"/>
-<img src="./img/animals/squirrel.gif" alt="squirrel" style="width:500px;height:300px;"/>
+<img src="./img/animals/blue bird.gif" alt="bird" style="width:300px;"/>
+<img src="./img/animals/wp.gif" alt="woodpecker" style="width:300px;"/>
+<img src="./img/animals/deer.gif" alt="deer" style="width:300px;"/>
+<img src="./img/animals/sheep.gif" alt="sheep" style="width:300px;"/>
+<img src="./img/animals/wolf.gif" alt="wolf" style="width:300px;"/>
+<img src="./img/animals/fox.gif" alt="fox" style="width:300px;"/>
+<img src="./img/animals/squirrel.gif" alt="squirrel" style="width:300px;"/>
 
-{% include_cached snippets/masonry.html internal="gallery" %}
 
 ## Requirements
 - Unity 2021.2
