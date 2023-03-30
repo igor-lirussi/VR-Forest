@@ -140,7 +140,7 @@ chulapa-skin:
   skin         :  # Optional predefined skins
   autothemer    :  # Bool: Use autotheming
   vars          :
-    primary     :   #default ["#007bff"] - Bootstrap blue
+    primary     :  "#0e4201" #default ["#007bff"] - Bootstrap blue
 
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
@@ -173,9 +173,9 @@ defaults:
     values:
       layout: landingpage
       og_image: "./img/result.jpg" #Social preview
-      excerpt: "A VR experience to explore a forest environment" #Social preview
+      excerpt: "A VR-Eperience to explore a forest environment" #Social preview
       title: "VR-Forest"
-      subtitle: "A VR-Eperience to explore a forest environmentg"
+      subtitle: "A VR-Eperience to explore a forest environment"
       header_type: "splash"
       header_img: "./img/result.PNG"
       show_sociallinks: true
