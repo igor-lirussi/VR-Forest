@@ -28,7 +28,7 @@ Some objects are present to manipulate and put in containers.
       </div>
       <div class="col-lg-6">
         <div class="p-5">
-          <img class="img-fluid rounded-circle" src="./img/water.PNG" alt="well" style="width:500px;height:500px;">
+          <img class="img-fluid rounded-circle" src="./img/water.PNG" alt="well" style="width:500px;">
         </div>
       </div>
     </div>
@@ -45,7 +45,7 @@ Some objects are present to manipulate and put in containers.
       </div>
       <div class="col-lg-6  order-lg-1">
         <div class="p-5">
-          <img class="img-fluid rounded-circle" src="./img/fountain.PNG" alt="Fountain" style="width:500px;height:500px;">
+          <img class="img-fluid rounded-circle" src="./img/fountain.PNG" alt="Fountain" style="width:500px;">
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@ Some objects are present to manipulate and put in containers.
       </div>
       <div class="col-lg-6">
         <div class="p-5">
-          <img class="img-fluid rounded-circle" src="./img/hut.png" alt="hut" style="width:500px;height:500px;">
+          <img class="img-fluid rounded-circle" src="./img/hut.png" alt="hut" style="width:500px;">
         </div>
       </div>
     </div>
