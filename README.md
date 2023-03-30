@@ -15,9 +15,54 @@ Some objects are present to manipulate and put in containers
 <img src="./img/map_pretty.png" alt="fountain" style="width:500px;height:500px;"/>
 
 ## İnterest Points
-<img src="./img/water.PNG" alt="water" style="width:500px;height:300px;"/>
-<img src="./img/fountain.PNG" alt="fountain" style="width:500px;height:300px;"/>
-<img src="./img/hut.png" alt="hut" style="width:500px;height:300px;"/>
+<section>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="p-5">
+          <h3 class="display-4 text-center te t-lg-left">Well</h3>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-5">
+          <img class="img-fluid rounded-circle" src="./img/water.PNG" alt="well" style="width:500px;height:300px;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="p-5">
+          <h3 class="display-4 text-center te t-lg-left">Fountain</h3>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-5">
+          <img class="img-fluid rounded-circle" src="./img/fountain.PNG" alt="Fountain" style="width:500px;height:300px;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="p-5">
+          <h3 class="display-4 text-center te t-lg-left">Hutt</h3>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-5">
+          <img class="img-fluid rounded-circle" src="./img/hut.png" alt="hut" style="width:500px;height:300px;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 ## Animals
 <img src="./img/animals/blue bird.gif" alt="bird" style="width:500px;height:300px;"/>
