@@ -23,12 +23,12 @@ Some objects are present to manipulate and put in containers.
       <div class="col-lg-6">
         <div class="p-5">
           <h3 class="display-4 text-center te t-lg-left">Well</h3>
+          <p>A dried well, witness of ancient human life.</p>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="p-5">
           <img class="img-fluid rounded-circle" src="./img/water.PNG" alt="well" style="width:500px;height:500px;">
-          <p>A dried well, witness of ancient human life.</p>
         </div>
       </div>
     </div>
@@ -40,12 +40,12 @@ Some objects are present to manipulate and put in containers.
       <div class="col-lg-6 order-lg-2">
         <div class="p-5">
           <h3 class="display-4 text-center te t-lg-left">Fountain</h3>
+          <p>An abandoned fountain, with its magnificient size. </p>
         </div>
       </div>
       <div class="col-lg-6  order-lg-1">
         <div class="p-5">
           <img class="img-fluid rounded-circle" src="./img/fountain.PNG" alt="Fountain" style="width:500px;height:500px;">
-          <p>An abandoned fountain, with its magnificient size. </p>
         </div>
       </div>
     </div>
@@ -57,12 +57,12 @@ Some objects are present to manipulate and put in containers.
       <div class="col-lg-6">
         <div class="p-5">
           <h3 class="display-4 text-center te t-lg-left">Hutt</h3>
+          <p>The hut with some sheep</p>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="p-5">
           <img class="img-fluid rounded-circle" src="./img/hut.png" alt="hut" style="width:500px;height:500px;">
-          <p>The hut with some sheep</p>
         </div>
       </div>
     </div>
@@ -77,6 +77,8 @@ Some objects are present to manipulate and put in containers.
 <img src="./img/animals/wolf.gif" alt="wolf" style="width:500px;height:300px;"/>
 <img src="./img/animals/fox.gif" alt="fox" style="width:500px;height:300px;"/>
 <img src="./img/animals/squirrel.gif" alt="squirrel" style="width:500px;height:300px;"/>
+
+{% include_cached snippets/masonry.html internal="gallery" %}
 
 ## Requirements
 - Unity 2021.2
