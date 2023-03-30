@@ -172,7 +172,7 @@ defaults:
       path: ""
     values:
       layout: landingpage
-      og_image: "./img/result.jpg" #Social preview
+      og_image: "./img/result.PNG" #Social preview
       excerpt: "A VR-Eperience to explore a forest environment" #Social preview
       title: "VR-Forest"
       subtitle: "A VR-Eperience to explore a forest environment"
