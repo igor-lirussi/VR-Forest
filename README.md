@@ -11,6 +11,8 @@ Some objects are present to manipulate and put in containers.
 [[All my VR Projects here]](https://github.com/igor-lirussi?tab=repositories&q=virtual-reality)
 
 ## Result
+[![Video](img/thumb_yt.jpg)](https://www.youtube.com/watch?v=0S6vBRQlCDQ)
+
 <img src="./img/result.jpg" alt="fountain" style="width:700px;"/>
 
 ## Walkable path & Map
